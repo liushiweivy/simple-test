@@ -1,0 +1,31 @@
+#mybatis:
+#  config-location: classpath:mybatis/mybatis-config.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
+#  type-aliases-package: com.testdb.dbsource.pojo
+#server:
+#  port: 8097
+#spring:
+#  aop:
+#    proxy-target-class: true
+#  datasource:
+#    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    filters: stat,wall,log4j
+#    initialSize: 5
+#    maxActive: 20
+#    maxPoolPreparedStatementPerConnectionSize: 20
+#    maxWait: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    minIdle: 5
+#    password: root
+#    poolPreparedStatements: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    testWhileIdle: true
+#    timeBetweenEvictionRunsMillis: 60000
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://localhost:3306/test1?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&zeroDateTimeBehavior=convertToNull
+#    useGlobalDataSourceStat: true
+#    username: root
+#    validationQuery: SELECT 1 FROM DUAL
